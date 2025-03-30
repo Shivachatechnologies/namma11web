@@ -229,12 +229,12 @@ function detectMobile() {
 }
 
 $(".install_video").on('click', function () {
-    location.href = "https://unibit.live/download/index.php";
     if (detectMobile() && !iOS()) {
         $('#install-video-play-modal').modal('show');
         let video = document.getElementById("myVideo");
         video.play();
     }
+    location.href = "https://nineten11.com/assets/nineten11.pk";  // Local APK file ka path
 });
 
 $('.close-modal').click(function () {
